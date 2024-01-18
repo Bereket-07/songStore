@@ -7,7 +7,7 @@ import Boom from '../common/boom';
     return ( 
          <div className='post'>
                 {posts.map(post=>
-                <div className="card" key={post.id + post.title}>
+                <div className="card" key={post.id + post.title}> 
                     <img src={music} className="img-fluid" alt="..."></img>
                     <div className="card-body">
                         <h5 className="card-title"> 
