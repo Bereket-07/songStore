@@ -1,0 +1,29 @@
+
+.back{
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+}
+.post{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem ,1fr));
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+}
+.card{
+ width:15rem;
+ margin: 10px 0px 10px;
+ justify-self: center;
+}
+.btn-1{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+}
+.col-2{
+  justify-self:center;
+  background-color: #e8f9fd;
+}
